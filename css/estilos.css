@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nova Flat', cursive;
+}
+body {
+  background: linear-gradient(0deg, rgba(242,30,68,1) 30%, rgba(255,255,255,1) 100%);  
+}
+.container {
+  
+  margin:auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#facebook{
+  background: #3b5998;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+}
+#img{
+  width: 200px;
+  height: 200px; 
+  display: none;
+}
+#name{
+  text-align: center;
+}

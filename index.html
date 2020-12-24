@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      LOGIN CON FACEBOOK Y FIREBASE EN MENOS DE 10 MINUTOS | ESPECIAL DE NAVIDAD
+    </title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img id="img" />
+        <h2 id="name"></h2>
+        <button id="facebook">Iniciar con Facebook</button>
+      </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyA725wW5qPcUr-4TErQBeJCIkVfyXGj3Ms",
+        authDomain: "login-con-facebook-775fd.firebaseapp.com",
+        projectId: "login-con-facebook-775fd",
+        storageBucket: "login-con-facebook-775fd.appspot.com",
+        messagingSenderId: "34941050247",
+        appId: "1:34941050247:web:5132ac45c90ab3516f8722",
+        measurementId: "G-KXH7CKYWRH",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
